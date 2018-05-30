@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: 'Work Sans', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    border-right: 1px solid black;
+    margin-right: 10px;
+    padding: 5px;
+    color: black;
+}
+a:visited {
+    color: #505355;
+}
+form {
+    display: block;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 80%;
+    height: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    Box-shadow: 0px 0px 10px 0px rgba(204,204,204,1)
+
+}
+input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    padding: 14px;
+    margin: 15px 0px;
+}
+.bio {
+    height: 80px;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 30px;
+    padding: 14px;
+    margin: 15px 0px;
+    
+}
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #505355;
+    color:white;
+    font-weight: bolder;
+    border: 1px solid #505355;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+button:hover {
+    background-color: #5BECD8;
+    color: black;
+    font-weight: bolder;
+}
+label {
+    color: #1ECEFD;
+    font-weight: bolder;
+}
+.editIntro {
+    color: #505355;
+    margin: 10px;
+    font-weight: 900;
+}
+.profileCont {
+    background-color: white;
+    width: 400px;
+    height: 80%;
+    padding: 0px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+h6 {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+img {
+    width:100%;
+    height: 300px;
+    border-radius: 15px 15px 0px 0px;
+}
+section {
+    padding: 20px;
+    
+}
